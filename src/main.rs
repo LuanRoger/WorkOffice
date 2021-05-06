@@ -12,9 +12,9 @@ fn main() {
                           .get_matches();
 
     match matches.value_of("TOOL").unwrap() {
-        "docs" | "doc" => gsuite::open_doc(),
-        "sheets" | "sheet" => gsuite::open_sheets(),
-        "slides" | "slide" => gsuite::open_slides(),
+        "docs" | "doc" | "document" => gsuite::open_doc(),
+        "sheets" | "sheet" | "spreadsheet" => gsuite::open_sheets(),
+        "slides" | "slide" | "presentation" => gsuite::open_slides(),
         "forms" | "form" => gsuite::open_forms(),
         _ => panic!("This argument is not valid"),
     }
