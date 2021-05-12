@@ -1,6 +1,6 @@
 [package]
-name = "gsuitecli"
-version = "0.1.1"
+name = "work_office"
+version = "0.3.0"
 authors = ["LuanRoger <luan.roger.2003@gmail.com>"]
 edition = "2018"
 
